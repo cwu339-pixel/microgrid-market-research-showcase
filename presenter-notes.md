@@ -41,7 +41,7 @@
 ## Section Notes
 ### Hero
 - Visible cue: 标题、3 个市场/场景数字、结论框
-- Key line: 微网数电不是一个模型，而是四种不同的生意
+- Key line: 基于公开信息，我会先把微网数电拆成四个业务场景
 - Support points:
   - 公开资料足够支持初步商业分析
   - 判断重点已转向单位经济和执行条件
@@ -53,7 +53,7 @@
 
 ### Company
 - Visible cue: 四个业务场景卡片
-- Key line: 同一家公司，四套商业模型
+- Key line: 同一家公司，需要分场景来看
 - Support points:
   - 换电看周转和库存
   - 超充看功率利用率和回本
