@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>微网数电｜Live Walkthrough</title>
+    <meta
+      name="description"
+      content="用于面试 screen-share 的微网数电商业分析精简讲解版。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="side-rail">
+        <div class="rail-inner">
+          <p class="rail-kicker">Microgrid Digital Energy</p>
+          <h1>商业分析<br />讲解版</h1>
+          <p class="rail-summary">
+            这版不是完整案例页，而是专门给面试现场 screen-share 用的精简版，只保留你真正会讲的部分。
+          </p>
+
+          <nav class="rail-nav" aria-label="页面目录">
+            <a href="#hero">总览</a>
+            <a href="#company">四个场景</a>
+            <a href="#screening">五道门</a>
+            <a href="#decision-case">一个示例</a>
+            <a href="#workflow">我的做法</a>
+          </nav>
+
+          <div class="rail-badge">
+            <span>边界说明</span>
+            <p>只基于公开信息做初步判断，不冒充公司内部数据。</p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-stage">
+        <section id="hero" class="hero-panel">
+          <div class="hero-copy">
+            <p class="eyebrow">Live Walkthrough Version</p>
+            <h2>微网数电不是一个模型，<br />而是四种不同的生意</h2>
+            <p class="lead">
+              基于公开政策、公司披露和行业资料，我把它拆成换电、聚合超充、BaaS 和光储充四类场景。重点不是证明行业够不够大，而是看不同场景下，什么样的项目值得推进。
+            </p>
+
+            <div class="hero-callout">
+              <strong>一句核心判断</strong>
+              <p>
+                赛道机会是真实存在的，但项目值不值得做，取决于需求密度、接电条件、资产寿命和合规成本能不能同时成立。
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-metrics">
+            <article class="metric-card metric-green">
+              <span class="metric-value">4</span>
+              <span class="metric-label">分析场景</span>
+              <span class="metric-note">换电 / 超充 / BaaS / 光储充</span>
+            </article>
+            <article class="metric-card metric-blue">
+              <span class="metric-value">5</span>
+              <span class="metric-label">筛选维度</span>
+              <span class="metric-note">需求 / 接电 / 资产 / 运营 / 合规</span>
+            </article>
+            <article class="metric-card metric-amber">
+              <span class="metric-value">1</span>
+              <span class="metric-label">初筛模板</span>
+              <span class="metric-note">推进 / 暂缓 / 放弃</span>
+            </article>
+            <article class="metric-card metric-coral">
+              <span class="metric-value">1</span>
+              <span class="metric-label">工作方式</span>
+              <span class="metric-note">把判断做成可复用流程</span>
+            </article>
+          </div>
+        </section>
+
+        <section id="company" class="section-panel">
+          <div class="section-heading">
+            <p class="section-index">01</p>
+            <div>
+              <p class="section-kicker">Company Scenes</p>
+              <h3>我会先把它拆成四个不同场景</h3>
+            </div>
+          </div>
+
+          <div class="scene-grid">
+            <article class="scene-card scene-green">
+              <p class="card-tag">Scene A</p>
+              <h4>两轮换电</h4>
+              <ul>
+                <li>核心看点：站点密度、机柜可用率、电池周转</li>
+                <li>难点：高频运营下库存是否健康</li>
+                <li>本质更像运营效率问题</li>
+              </ul>
+            </article>
+
+            <article class="scene-card scene-blue">
+              <p class="card-tag">Scene B</p>
+              <h4>聚合超充 / 城市快充</h4>
+              <ul>
+                <li>核心看点：接电、功率结构、站点利用率</li>
+                <li>难点：资本开支能否被单站收入覆盖</li>
+                <li>本质更像单位经济问题</li>
+              </ul>
+            </article>
+
+            <article class="scene-card scene-amber">
+              <p class="card-tag">Scene C</p>
+              <h4>BaaS 电池银行</h4>
+              <ul>
+                <li>核心看点：SOH、寿命、残值、质保成本</li>
+                <li>难点：资产到底赚不赚钱</li>
+                <li>本质更像资产管理问题</li>
+              </ul>
+            </article>
+
+            <article class="scene-card scene-coral">
+              <p class="card-tag">Scene D</p>
+              <h4>光储充与数字调度</h4>
+              <ul>
+                <li>核心看点：储能协同、调度效率、成本曲线</li>
+                <li>难点：协同收益能否量化</li>
+                <li>本质更像系统协同问题</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="quote-box">
+            <p>
+              <strong>这一页想说明：</strong>
+              我不会把它当成一个模糊的大行业去讲，而是会先拆成可以判断、可以测算的具体场景。
+            </p>
+          </div>
+        </section>
+
+        <section id="screening" class="section-panel dark-panel">
+          <div class="section-heading">
+            <p class="section-index">02</p>
+            <div>
+              <p class="section-kicker">Opportunity Screening</p>
+              <h3>然后我会先过五道门，而不是先写很复杂的模型</h3>
+            </div>
+          </div>
+
+          <div class="gate-grid">
+            <article class="gate-card">
+              <span class="gate-no">01</span>
+              <h4>需求密度</h4>
+              <p>用户在哪，频次够不够，竞争是不是已经过挤。</p>
+            </article>
+            <article class="gate-card">
+              <span class="gate-no">02</span>
+              <h4>接电与站址</h4>
+              <p>配网承载、接电时效、物业条件是否现实可落地。</p>
+            </article>
+            <article class="gate-card">
+              <span class="gate-no">03</span>
+              <h4>资产经济性</h4>
+              <p>设备、电池、折旧、寿命和残值能不能撑住模型。</p>
+            </article>
+            <article class="gate-card">
+              <span class="gate-no">04</span>
+              <h4>运营可靠性</h4>
+              <p>在线率、故障率、库存周转、人效是否稳定。</p>
+            </article>
+            <article class="gate-card">
+              <span class="gate-no">05</span>
+              <h4>合规与伙伴</h4>
+              <p>政策适配、消防、价格公示和外部协同是否到位。</p>
+            </article>
+          </div>
+
+          <div class="screening-footer">
+            <strong>筛选输出：</strong>
+            <span class="inline-chip inline-chip-dark">推进 / 暂缓 / 放弃</span>
+            ，再加关键假设、缺失数据和下一步动作。
+          </div>
+        </section>
+
+        <section id="decision-case" class="section-panel">
+          <div class="section-heading">
+            <p class="section-index">03</p>
+            <div>
+              <p class="section-kicker">Decision Template</p>
+              <h3>如果真落到项目，我会先这样做初筛</h3>
+            </div>
+          </div>
+
+          <div class="decision-grid">
+            <article class="decision-card decision-card-primary">
+              <p class="card-tag">Illustrative Case</p>
+              <h4>城市快充站点</h4>
+              <p>
+                先不追求模型复杂，而是先确认最影响结论的几个变量到底成不成立。
+              </p>
+            </article>
+
+            <article class="decision-card">
+              <h4>先看输入</h4>
+              <ul>
+                <li>区域车流和停留时长</li>
+                <li>接电时效和物业条件</li>
+                <li>租金、电价和运维约束</li>
+              </ul>
+            </article>
+
+            <article class="decision-card">
+              <h4>再看单位经济</h4>
+              <ul>
+                <li>单站服务量能否覆盖固定成本</li>
+                <li>功率利用率是否支撑设备投入</li>
+                <li>在线率和故障率是否吞噬毛利</li>
+              </ul>
+            </article>
+
+            <article class="decision-card">
+              <h4>最后给结论</h4>
+              <ul>
+                <li><strong>推进</strong>：关键条件基本满足</li>
+                <li><strong>暂缓</strong>：需求成立，但落地条件不足</li>
+                <li><strong>放弃</strong>：单位经济明显不成立</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="workflow" class="section-panel">
+          <div class="section-heading">
+            <p class="section-index">04</p>
+            <div>
+              <p class="section-kicker">Workflow</p>
+              <h3>最后我会把它做成一个能持续复用的工作流</h3>
+            </div>
+          </div>
+
+          <div class="workflow-strip">
+            <article class="workflow-step">
+              <p class="card-tag">Step 1</p>
+              <h4>资料收口</h4>
+              <p>政策、行业、竞品和项目底表统一收口。</p>
+            </article>
+            <article class="workflow-step">
+              <p class="card-tag">Step 2</p>
+              <h4>字段标准化</h4>
+              <p>把来源、日期、场景、变量名称整理一致。</p>
+            </article>
+            <article class="workflow-step">
+              <p class="card-tag">Step 3</p>
+              <h4>决策表</h4>
+              <p>映射到机会筛选、测算和商务判断模板。</p>
+            </article>
+            <article class="workflow-step">
+              <p class="card-tag">Step 4</p>
+              <h4>持续更新</h4>
+              <p>用 Excel / Python 维持更新，而不是每次重做。</p>
+            </article>
+          </div>
+
+          <div class="quote-box">
+            <p>
+              <strong>这一页想说明：</strong>
+              我能提供的不只是一次分析结论，而是一套后面还能持续支持项目筛选和测算的工作方式。
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
